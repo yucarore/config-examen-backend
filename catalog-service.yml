@@ -17,14 +17,3 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 10
-
-
-#Sustituir lo de arriba por lo de abajo después de subir lo de arriba al repo publico y cambiar la url en el yml de config
-#
-#spring:
-#  application:
-#    name: catalog-service
-#  config:
-#    import: optional:configserver:http://localhost:8888
-
-# al copiar lo de arriba al repo publico, renombrar el archivo para catalog-service.yml
